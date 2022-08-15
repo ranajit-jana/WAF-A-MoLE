@@ -67,6 +67,12 @@ If you want to cite us, please use the following (BibTeX) reference:
 
 `pip install -r requirements.txt`
 
+
+## install the package locally
+from the root directory run the following command
+`pip3 install -e .`
+setup.py will be called and wafamole cli will be installed
+
 ## Sample Usage
 
 You can evaluate the robustness of your own WAF, or try WAF-A-MoLE against some example classifiers.
